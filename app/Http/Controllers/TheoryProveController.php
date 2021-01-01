@@ -23,10 +23,12 @@ class TheoryProveController extends Controller
     {
         $request->validate([
             'name' => 'required',
+        ], [
+            'name.required' => 'Nama materi harus di isi !',
         ]);
 
         TheoryProve::create($request->all());
-
+        notify()->success('Sukses menambahkan data');
         return redirect()->route('theory_prove.index');
     }
 }

@@ -5,6 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SCC</title>
+    @notifyCss
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="{{ url('windmill/assets/css/tailwind.datatables.css') }}" />
     <link rel="stylesheet" href="{{ url('windmill/assets/css/tailwind.output.css') }}" />
@@ -54,6 +55,8 @@
             </main>
         </div>
     </div>
+    <x:notify-messages />
+    @notifyJs
 </body>
 
 </html>
