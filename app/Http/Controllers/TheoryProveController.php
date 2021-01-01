@@ -9,7 +9,7 @@ class TheoryProveController extends Controller
 {
     public function index()
     {
-        $items = TheoryProve::latest()->paginate(5);
+        $items = TheoryProve::latest()->get();
 
         return view('backend/theory_prove/index', compact('items'));
     }
