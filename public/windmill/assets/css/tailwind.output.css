@@ -1988,6 +1988,10 @@ print and (-ms-high-contrast:none) {
     box-shadow: 0 0 0 3px rgba(213, 214, 215, .45)
 }
 
+.focus\:shadow-outline-teal:focus {
+    box-shadow: 0 0 0 3px #0694a2;
+}
+
 .focus\:shadow-outline-red:focus {
     box-shadow: 0 0 0 3px rgba(248, 180, 180, .45)
 }

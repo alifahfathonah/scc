@@ -96,13 +96,15 @@ button.dt-button:hover:not(.disabled) {
     background: #edf2f7 !important;
     border-width: 1px !important;
     border-color: #d2d6dc !important;
-    color: #3f83f8 !important
+    color: #3f83f8 !important;
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.current:not(.disabled) {
     background: #3f83f8 !important;
     color: #ffffff !important;
-    border-color: #3f83f8 !important
+    border-color: #3f83f8 !important;
+    margin-top: 6px;
+
 }
 
 .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover,
